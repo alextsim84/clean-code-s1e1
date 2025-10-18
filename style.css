@@ -68,6 +68,7 @@ button {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 button:hover {
@@ -162,11 +163,16 @@ img:hover {
 
 /* Completed */
 
-ul
-#completed-tasks 
+ul,
+#completed-tasks
+label {
+    color: #888;
+}
+
+#completed-tasks
+li
 label {
   text-decoration: line-through;
-  color: #888;
 }
 
 
